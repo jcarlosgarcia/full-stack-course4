@@ -11,14 +11,13 @@
 }
 
 #nav-list {
-  margin: 0 -15px;
+  margin: 0 15px;
   background: #ADD8E6;
 }
 
 #nav-list a {
   color: white;
   font-weight: bold;
-  text-align: center;
 }
 
 #nav-list hr {
@@ -33,7 +32,6 @@
 }
 
 #main-content {
-  /*border: 1px solid black;*/
   background-color: #4682B4;
   margin: 30px 15px;
   color: white;
@@ -50,5 +48,9 @@
 @media (max-width: 767px) {
   #main-content {
     margin: 30px 30px;
+  }
+  
+  #collapsable-nav {
+    background: white;
   }
 }
