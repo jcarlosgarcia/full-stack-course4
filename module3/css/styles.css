@@ -11,8 +11,9 @@
 }
 
 #nav-list {
-  margin: 0 15px;
   background: #ADD8E6;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #nav-list a {
@@ -49,8 +50,5 @@
   #main-content {
     margin: 30px 30px;
   }
-  
-  #collapsable-nav {
-    background: white;
-  }
+
 }
