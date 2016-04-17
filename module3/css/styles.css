@@ -33,9 +33,13 @@
 }
 
 #main-content {
-  background-color: #4682B4;
-  margin: 30px 15px;
+  margin: 30px 15px 0px;
   color: white;
+}
+
+.content {
+  background-color: #4682B4;
+  margin-bottom: 30px;
 }
 
 #main-section {
