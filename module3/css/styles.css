@@ -1,0 +1,54 @@
+/** HEADER **/
+#header-nav {
+  background-color: #4682B4;
+  border-radius: 0;
+  border: 0;
+}
+
+#brand-name {
+  font-weight: bold;
+  color: white;
+}
+
+#nav-list {
+  margin: 0 -15px;
+  background: #ADD8E6;
+}
+
+#nav-list a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nav-list hr {
+  width: 90%;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ADD8E6;
+}
+
+#main-content {
+  /*border: 1px solid black;*/
+  background-color: #4682B4;
+  margin: 30px 15px;
+  color: white;
+}
+
+#main-section {
+  min-height: 1000px;
+}
+
+#main-section h2 {
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  #main-content {
+    margin: 30px 30px;
+  }
+}
